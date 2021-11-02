@@ -13,6 +13,12 @@ void main(){
     int arm = n; //saving this value of n in another variable for later comparison
 
     int n_length = 1+(int)log10(n);  //to find number of digits
+    
+    // int n_length2=0;   //we can also find the number of digits by this.
+    // while(n!=0){
+    //     n/=10;
+    //     ++n_length2;
+    // }
   
     while (n!=0)
     {
